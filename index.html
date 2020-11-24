@@ -1,0 +1,210 @@
+<!-- よろしければ<head>内も参考にしてみてください！ -->
+<!-- ファビコンやmetaタグの存在を知らない方も多いのではないでしょうか？ -->
+<!-- サイトのSEO対策やエンゲージメントのために必須です💡 -->
+
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- 文字化け -->
+    <meta charset="utf-8">
+    <!-- IE対策 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- ビューポートの設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ディスクリプション -->
+    <meta name="description" content="">
+    <!-- キーワード -->
+    <meta name="keywords" content="キーワード1,キーワード2,キーワード3">
+    <!-- サムネイル設定 -->
+    <meta name=”thumbnail” content=”” />
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="./img/favicon.jpg">
+    <!-- OGP -->
+    <meta property="og:url" content="ページのURL">
+    <meta property="og:type" content="ページの種類">
+    <meta property="og:title" content="ページのタイトル">
+    <meta property="og:description" content="ページの説明文">
+    <meta property="og:image" content="画像のURL">
+    <meta property="og:site_name" content="サイトの名前">
+    <meta property="og:locale" content="ja_JP">
+    <!-- Facebook -->
+    <meta property="fb:app_id" content="アプリID">
+    <meta property="article:publisher" content="FacebookページのURL" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="Twitterカードの種類" />
+    <meta name="twitter:site" content="@ユーザー名" />
+    <meta name="twitter:creator" content="@ユーザー名">
+    <meta name="twitter:title" content="ページのタイトル">
+    <meta name="twitter:description" content="ページの説明文">
+    <meta name="twitter:image" content="画像のURL">
+    <!-- タイトル -->
+    <title>あきらのJSコード</title>
+    <!-- CSS・JSファイル読み込み -->
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- スライダーのためのファイルを読み込み-->
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+  </head>
+
+  <body>
+  <header>
+    <div class="header">
+      <nav id="globalnav">
+        <ul id="headernav">
+          <li class="menuitem">
+            <a href="#slider">スライダー(あきらについて)</a>
+          </li>
+          <li class="menuitem">
+              <a href="#fadein-ver1">フェードインver1</a>
+          </li>
+          <li class="menuitem">
+            <a href="#fadein-ver2">フェードインver2</a>
+          </li>
+          <li class="menuitem">
+            <a href="#faq">FAQ(あきらについて)</a>
+          </li>
+
+        </ul>
+      </nav>
+      <!-- 僕はスマホ用しか表示させないブロックに forsp というクラスを付けると決めています -->
+      <!-- いつもはここにスマホ用のロゴを表示させますが今日はh1タグのテキストとしました -->
+      <!-- splogoというidが紛らわしいかもしれませんが本来は画像が入ると思って使ってください -->
+      <div id="splogo" class="forsp"><h1>あきらのJSコード</h1></div>
+      <a href="" id="menubtn"><span></span><span></span><span></span></a>
+    </div>
+  </header>
+
+  <section class="sec1" id="slider">
+    <div class="container">
+      <h2>スライダー(あきらについて)</h2>
+      <div>
+      <ul class="slider">
+        <li>
+          <h3>1997年7月27日生まれ</h3>
+          <p>最近嬉しかったエピソードは22年間食べれなかった玉ねぎを食べれるようになったことです。</p>
+        </li>
+        <li>
+          <h3>血液型A型</h3>
+          <p>今の最大の目標は25歳の誕生日までにチャンネル登録数10万人のYouTuberになることです。</p>
+        </li>
+        <li>
+          <h3>出身地は広島</h3>
+          <p>僕のプチ自慢は中学2年生から高校3年生までの5年間スポーツテストは毎年学年1位だったことです。</p>
+        </li>
+        <li>
+          <h3>好きな色は緑</h3>
+          <p>ここだけの話、プログラミングは大嫌いでずっと1人でパワプロかポケモンGOしてたいです。</p>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </section>
+
+  <section class="sec2" id="fadein-ver1">
+    <div class="container">
+      <h2>画面に入るとフェードインver1</h2>
+      <div class="image-wrap">
+        <img src="./img/sample.jpg" class="fadein">
+      </div>
+      <div class="sec2-txt fadein">
+        <h3>『LIFE SHIFT』</h3>
+        <p>テーマは『LIFE SHIFT』=『生き方改革』です。<br>僕自身、友達が遊んでいる間に学び続けることで相応のスキルを得る事ができました。<br>現在では1年前には考えても見なかったくらい稼ぐ事ができ、事業の協力者を雇うことまで出来ています。<br><br>僕の発信を通じて、1人でも多くの方に「一歩踏み出すきっかけ」を与えることを目的に日々発信しています！<br><br>強みは営業力。僕がコンサルをして案件を獲得できなかった人は今まで1人もいません。<br><br>もちろん目標は10万人YouTuber!!!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec3" id="fadein-ver2">
+    <div class="container">
+      <h2>画面に入るとフェードインver2</h2>
+      <div class="movie-wrap">
+        <iframe class="fadein-left" width="270" height="180" src="https://www.youtube.com/embed/IO85XJY3vbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="sec2-txt fadein-right">
+        <h3>『YouTube』</h3>
+        <p>前記の通りYouTubeを通して発信しています。<br>YouTubeでのコンセプトはもちろん視聴者の方にとって有益かつ面白いことの追求ですが、何よりも自分自身の挑戦を大切にしていきたいです。<br><br>口で語るよりもまずは自分自身が誰よりも挑戦する。<br><br>僕の大切にしている価値観の1つです。</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sec4" id="faq">
+    <div class="container">
+      <h2>FAQ(あきらについて)</h2>
+        <div class="questions-box">
+          <div class="aco-contents2">
+            <h4 class="question-ttl"><i class="far fa-question-circle"></i>YouTubeのアカウントは？</h4>
+            <div class="answer-txt">
+              <p><a href="https://www.youtube.com/channel/UCpPFdPmLnBgL6yu6vCgb1nA" target="_blank">こちらから移動！</a></p>
+            </div>
+          </div>
+          <div class="aco-contents2">
+              <h4 class="question-ttl"><i class="far fa-question-circle"></i>Twitterのアカウントは？</h4>
+              <div class="answer-txt">
+                <p><a href="https://twitter.com/akira0727x" target="_blank">https://twitter.com/akira0727x</a></p>
+              </div>
+          </div>
+          <div class="aco-contents2">
+              <h4 class="question-ttl"><i class="far fa-question-circle"></i>Instagramのアカウントは?</h4>
+              <div class="answer-txt">
+                <p><a href="https://www.instagram.com/akira0727x/?hl=ja" target="_blank">https://www.instagram.com/akira0727x/?hl=ja</a></p>
+              </div>
+          </div>
+          <div class="aco-contents2">
+            <h4 class="question-ttl"><i class="far fa-question-circle"></i>公式LINEアカウントは?</h4>
+            <div class="answer-txt">
+              <p><a href="https://lin.ee/QY6UaDS" target="_blank">https://lin.ee/QY6UaDS</a></p>
+            </div>
+          </div>
+          <div class="aco-contents2">
+            <h4 class="question-ttl"><i class="far fa-question-circle"></i>彼女いますか？</h4>
+            <div class="answer-txt">
+              <p>秘密です。</p>
+            </div>
+          </div>
+          <div class="aco-contents2">
+            <h4 class="question-ttl"><i class="far fa-question-circle"></i>最後に</h4>
+            <div class="answer-txt">
+              <p>今回はご利用いただきありがとうございました。<br>この「あきらのJSコード」が皆さんのお役に立てる日が来ると嬉しいです♪<br>今後ともよろしくお願いいたします！</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+    <!-- ④フェードインのためのコードです
+    上記のscrollreveal.min.jsというファイルを必ず読み込んでください
+    scrollrebvealはとてもカスタマイズ性が豊富なものとなっております。
+    詳細はこちらのブログ等をご覧ください → https://amg-solution.jp/blog/9796 
+    またコードの説明としましては、fadeinというクラスを持ったブロックをスクロールしたらフェードインで出現させるというシンプルなものとなっております。 -->
+    <script src="./js/scrollreveal.min.js"></script>
+    <script>
+      var ScrollrevealFade1 = {
+      origin: 'left',
+      distance: '30px',//移動範囲
+      scale: 1,//拡大表示（１で横スクロールが始まる）
+      rotate: { x: 0, y: 0, z: 0 }, //xは縦回転、yは横回転、zは傾き（風車みたいな感じ）
+      duration: 2500, //アニメーションの速度
+      delay:0 //要素が表示するまでの待機時間（ディレイ）
+      };
+      ScrollReveal().reveal('.fadein-left',ScrollrevealFade1);
+    </script>
+    <script>
+      var ScrollrevealFade2 = {
+      origin: 'right',
+      distance: '30px',//移動範囲
+      scale: 1,//拡大表示（１で横スクロールが始まる）
+      rotate: { x: 0, y: 0, z: 0 }, //xは縦回転、yは横回転、zは傾き（風車みたいな感じ）
+      duration: 2500, //アニメーションの速度
+      delay:0 //要素が表示するまでの待機時間（ディレイ）
+      };
+      ScrollReveal().reveal('.fadein-right',ScrollrevealFade2);
+    </script>
+  </body>
+</html>

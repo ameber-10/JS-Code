@@ -1,0 +1,23 @@
+/*以下は僕のいつも使用している初期設定です。*/
+
+body{
+    margin: 0;
+    padding: 0;
+    /*safariでの自動調節を全て1倍にする*/
+    -webkit-text-size-adjust: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
